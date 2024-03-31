@@ -3,7 +3,7 @@
     "packages": {
         "base": {
             "version": "0.0.7",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/51cce46a5d8b022d3bb5832eca5ed43cebe55aa7/",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/a4ac2eb6fcb7ffa3e027c4a7fbe81e9a188f554f/",
             "files": [
                 "bin/cat.lua",
                 "bin/cd.lua",
@@ -20,14 +20,14 @@
         },
         "bootloader": {
             "version": "0.0.3",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/51cce46a5d8b022d3bb5832eca5ed43cebe55aa7/",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/a4ac2eb6fcb7ffa3e027c4a7fbe81e9a188f554f/",
             "files": [
                 ".BOOT"
             ]
         },
         "shell": {
             "version": "0.0.1",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/51cce46a5d8b022d3bb5832eca5ed43cebe55aa7/",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/a4ac2eb6fcb7ffa3e027c4a7fbe81e9a188f554f/",
             "files": [
                 "bin/sh.lua",
 				"lib/sha256.lua"
@@ -35,28 +35,28 @@
         },
         "package": {
             "version": "0.0.1",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/51cce46a5d8b022d3bb5832eca5ed43cebe55aa7/",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/a4ac2eb6fcb7ffa3e027c4a7fbe81e9a188f554f/",
             "files": [
                 "bin/package.lua"
             ]
         },
         "kernel": {
             "version": "0.0.3",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/51cce46a5d8b022d3bb5832eca5ed43cebe55aa7/",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/a4ac2eb6fcb7ffa3e027c4a7fbe81e9a188f554f/",
             "files": [
                 "sbin/kernel.lua"
             ]
         },
         "bios": {
-            "version": "2.00",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-BIOS/ab0542dad45f5f732134ecfab3683010966b9f7c/",
+            "version": "2.00-1",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-BIOS/a6195164f34abbe17fb83068a1abbf8f2bfcfde9/",
             "files": {
                 "startup.lua": "bios.lua"
             }
         },
         "neofetch": {
-            "version": "1.1",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/packages/b00b6b12f95b7be6378cffacb85cc9128687ac09/",
+            "version": "1.2",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/packages/b776298944d0d9681c9d0ee426a6464051b326f0/",
             "files": {
                 "usr/bin/neofetch.lua": "packages/neofetch.lua"
             }
