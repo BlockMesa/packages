@@ -1,5 +1,5 @@
 {
-  "lastupdated": "2024-03-31 1:43 PM",
+  "lastupdated": "2024-03-31 10:49 PM",
   "packages": {
     "base": {
       "version": "0.0.3",
@@ -17,7 +17,8 @@
 		"bin/echo.lua",
 		"bin/move.lua",
 		"bin/rm.lua",
-		"bin/reboot.lua"
+		"bin/reboot.lua",
+	"bin/neofetch.lua"
       ]
     },
     "bootloader": {
