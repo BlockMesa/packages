@@ -2,8 +2,8 @@
   "lastupdated": "2024-03-31 1:43 PM",
   "packages": {
     "base": {
-      "version": "0.0.2",
-      "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-UNIX/1ae1648e6704900706f649ed4b24e0fc6904651d/",
+      "version": "0.0.3",
+      "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-UNIX/8abb04b3901d2bd087458c6b12233034bfc49ff4/",
       "files": [
         "bin/sh.lua",
         "bin/cat.lua",
@@ -11,7 +11,13 @@
         "bin/ls.lua",
         "bin/mkdir.lua",
         "bin/shutdown.lua",
-        "bin/package.lua"     
+        "bin/package.lua",
+		"bin/clear.lua",
+		"bin/copy.lua",
+		"bin/echo.lua",
+		"bin/move.lua",
+		"bin/rm.lua",
+		"bin/reboot.lua",
       ]
     },
     "bootloader": {
