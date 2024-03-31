@@ -3,7 +3,7 @@
   "packages": {
     "base": {
       "version": "0.0.3",
-      "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-UNIX/8abb04b3901d2bd087458c6b12233034bfc49ff4/",
+      "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-UNIX/e50df6a5ebd8050b82db8ed23b20cc831297bd5b/",
       "files": [
         "bin/sh.lua",
         "bin/cat.lua",
