@@ -2,8 +2,8 @@
     "lastupdated": "2024-03-31 1:43 PM",
     "packages": {
         "base": {
-            "version": "0.0.4",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-UNIX/5f6232326d995cbf2f8ecc0eca66674e2a473b88/",
+            "version": "0.0.6",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-UNIX/1379f0d6ad874287dbc32548d8340622b4b7c215/",
             "files": [
                 "bin/sh.lua",
                 "bin/cat.lua",
