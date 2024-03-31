@@ -1,0 +1,27 @@
+{
+  "lastupdated": "2024-03-31 1:43 PM",
+  "packages": {
+    "base": {
+      "version": "0.0.1",
+      "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-UNIX/main/",
+      "files": [
+        ".BOOT",
+        "bin/sh.lua",
+        "bin/cat.lua",
+        "bin/cd.lua",
+        "bin/ls.lua",
+        "bin/mkdir.lua",
+        "bin/shutdown.lua",
+        "bin/package.lua",
+        "sbin/kernel.lua"
+      ]
+    },
+    "bios": {
+      "version": "2.00",
+      "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-BIOS/main/",
+      "files": {
+        "startup.lua": "bios.lua"
+      }
+    }
+  }
+}
