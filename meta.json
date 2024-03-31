@@ -17,7 +17,7 @@
 		"bin/echo.lua",
 		"bin/move.lua",
 		"bin/rm.lua",
-		"bin/reboot.lua",
+		"bin/reboot.lua"
       ]
     },
     "bootloader": {
