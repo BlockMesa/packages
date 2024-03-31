@@ -56,7 +56,7 @@
         },
         "neofetch": {
             "version": "1.1",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/packages/main/",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/packages/b00b6b12f95b7be6378cffacb85cc9128687ac09/",
             "files": {
                 "usr/bin/neofetch.lua": "packages/neofetch.lua"
             }
