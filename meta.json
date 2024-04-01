@@ -26,8 +26,8 @@
             ]
         },
         "shell": {
-            "version": "0.0.1",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/a4ac2eb6fcb7ffa3e027c4a7fbe81e9a188f554f/",
+            "version": "0.0.2",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/632c217afa2868a387a822f1c2d3646980d560fa/",
             "files": [
                 "bin/sh.lua",
 				"lib/sha256.lua"
@@ -41,8 +41,8 @@
             ]
         },
         "kernel": {
-            "version": "0.0.3",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/a4ac2eb6fcb7ffa3e027c4a7fbe81e9a188f554f/",
+            "version": "0.0.4",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/632c217afa2868a387a822f1c2d3646980d560fa/",
             "files": [
                 "sbin/kernel.lua"
             ]
