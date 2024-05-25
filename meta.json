@@ -49,10 +49,11 @@
             ]
         },
         "bios": {
-            "version": "2.00-1",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-BIOS/a6195164f34abbe17fb83068a1abbf8f2bfcfde9/",
+            "version": "3.00",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-BIOS/01364da08236166ecc369f9ce1b5f67a79bf8407/",
             "files": {
-                "startup.lua": "bios.lua"
+                "startup.lua",
+				".BIOS"
             }
         },
         "neofetch": {
