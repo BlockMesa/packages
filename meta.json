@@ -1,5 +1,5 @@
 {
-    "lastupdated": "2024-03-31 1:43 PM",
+    "lastupdated": "2024-05-24 10:434 PM EST",
     "packages": {
         "base": {
             "version": "0.0.8",
@@ -51,10 +51,10 @@
         "bios": {
             "version": "3.00",
             "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-BIOS/01364da08236166ecc369f9ce1b5f67a79bf8407/",
-            "files": {
+            "files": [
                 "startup.lua",
 				".BIOS"
-            }
+            ]
         },
         "neofetch": {
             "version": "1.2",
