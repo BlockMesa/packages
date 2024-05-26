@@ -2,8 +2,8 @@
     "lastupdated": "2024-05-24 10:434 PM EST",
     "packages": {
         "base": {
-            "version": "0.0.8",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/fbaf760d21629806b3eef5904e4007e4617fbe46/",
+            "version": "0.1.0",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/67351eef744bd07f3bb50c8e67925fb7f1e7f98e/",
             "files": [
                 "bin/cat.lua",
                 "bin/cd.lua",
@@ -15,19 +15,20 @@
                 "bin/echo.lua",
                 "bin/move.lua",
                 "bin/rm.lua",
-                "bin/reboot.lua"
+                "bin/reboot.lua",
+				"lib/json.lua"
             ]
         },
         "bootloader": {
-            "version": "0.0.3",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/a4ac2eb6fcb7ffa3e027c4a7fbe81e9a188f554f/",
+            "version": "0.0.4",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/67351eef744bd07f3bb50c8e67925fb7f1e7f98e/",
             "files": [
                 ".BOOT"
             ]
         },
         "shell": {
             "version": "0.1.0",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/fbaf760d21629806b3eef5904e4007e4617fbe46/",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/67351eef744bd07f3bb50c8e67925fb7f1e7f98e/",
             "files": [
                 "bin/sh.lua",
 				"bin/login.lua",
@@ -35,17 +36,24 @@
             ]
         },
         "package": {
-            "version": "0.0.1",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/d9b4176da00f94a360b8fd40e6c06b13616c7523/",
+            "version": "0.0.2",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/67351eef744bd07f3bb50c8e67925fb7f1e7f98e/",
             "files": [
                 "bin/package.lua"
             ]
         },
         "kernel": {
-            "version": "0.1.0",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/0e88b83d77e8194d303a9dbf2eaa2356b686fac3/",
+            "version": "0.2.0",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/67351eef744bd07f3bb50c8e67925fb7f1e7f98e/",
             "files": [
                 "sbin/kernel.lua"
+            ]
+        },
+		"bios-wrapper": {
+            "version": "0.3.0",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/bios-wrapper/274b9f137b1134e155d5384462c442e7ead5f02a/",
+            "files": [
+                "init.lua"
             ]
         },
         "bios": {
