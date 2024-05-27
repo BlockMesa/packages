@@ -15,8 +15,7 @@
                 "bin/echo.lua",
                 "bin/move.lua",
                 "bin/rm.lua",
-                "bin/reboot.lua",
-				"lib/json.lua"
+                "bin/reboot.lua"
             ]
         },
         "bootloader": {
@@ -50,10 +49,12 @@
             ]
         },
 		"bios-wrapper": {
-            "version": "0.3.0",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/bios-wrapper/274b9f137b1134e155d5384462c442e7ead5f02a/",
+            "version": "0.3.1",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/bios-wrapper/1a58f2e8e2f78d234b65aaea276f5c25cc138874/",
             "files": [
-                "init.lua"
+                "init.lua",
+				"lib/json.lua",
+				"lib/bit.lua"
             ]
         },
         "bios": {
