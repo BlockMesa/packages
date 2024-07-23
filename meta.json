@@ -96,7 +96,7 @@
             }
         },
         "init": {
-            "version": "0.1.0",
+            "version": "0.1.1",
             "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/4622c2820700714464f1207efb455d5ab84fe43b/",
             "files": [
                 "sbin/init.why"
