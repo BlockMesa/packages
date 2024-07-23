@@ -56,10 +56,10 @@
             ]
         },
         "shitty": {
-            "version": "0.1.0",
+            "version": "0.1.1",
             "assetBase": "https://raw.githubusercontent.com/WindClan/shittylang/4829e4796deb31b5cce0505e2372b20a315fb356/",
             "files": {
-                "sbin/shitty.lua": "shitty.lua"
+                "bin/shitty.lua": "shitty.lua"
             }
         },
         "package": {
@@ -97,7 +97,7 @@
         },
         "init": {
             "version": "0.1.0",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/31029e16eaf357084b6b8c67755f38ad1980c9a6/",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/4622c2820700714464f1207efb455d5ab84fe43b/",
             "files": [
                 "sbin/init.why"
             ],
