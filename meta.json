@@ -2,7 +2,23 @@
     "lastupdated": "2024-05-24 10:434 PM EST",
     "packages": {
         "base": {
-            "version": "0.1.0",
+            "version": "0.2.1",
+            "assetBase": "",
+            "requires": [
+                "bios",
+                "bootloader",
+                "shitty",
+                "init",
+                "kernel",
+                "login",
+                "shell",
+                "init",
+                "basic-commands",
+                "package"
+            ]
+        },
+        "basic-commands": {
+            "version": "0.2.1",
             "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/67351eef744bd07f3bb50c8e67925fb7f1e7f98e/",
             "files": [
                 "bin/cat.lua",
@@ -19,42 +35,71 @@
             ]
         },
         "bootloader": {
-            "version": "0.0.4",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/67351eef744bd07f3bb50c8e67925fb7f1e7f98e/",
+            "version": "0.1.0",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/31029e16eaf357084b6b8c67755f38ad1980c9a6/",
             "files": [
                 ".BOOT"
             ]
         },
         "shell": {
-            "version": "0.1.0",
+            "version": "0.1.1",
             "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/67351eef744bd07f3bb50c8e67925fb7f1e7f98e/",
             "files": [
-                "bin/sh.lua",
-				"bin/login.lua",
-				"lib/sha256.lua"
+                "bin/sh.lua"
             ]
         },
+        "login": {
+            "version": "0.1.1",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/31029e16eaf357084b6b8c67755f38ad1980c9a6/",
+            "files": [
+                "bin/login.lua",
+                "lib/sha256.lua"
+            ]
+        },
+        "shitty": {
+            "version": "0.1.0",
+            "assetBase": "https://raw.githubusercontent.com/WindClan/shittylang/4829e4796deb31b5cce0505e2372b20a315fb356/",
+            "files": {
+                "sbin/shitty.lua": "shitty.lua"
+            }
+        },
         "package": {
-            "version": "0.0.3",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/738db4b50a85dda93a08d8739073df090b79d28c/",
+            "version": "0.3.1",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/31029e16eaf357084b6b8c67755f38ad1980c9a6/",
             "files": [
                 "bin/package.lua"
             ]
         },
         "kernel": {
-            "version": "0.2.0",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/67351eef744bd07f3bb50c8e67925fb7f1e7f98e/",
+            "version": "0.3.0",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/31029e16eaf357084b6b8c67755f38ad1980c9a6/",
             "files": [
                 "sbin/kernel.lua"
             ]
         },
-		"bios-wrapper": {
+        "bios-wrapper": {
             "version": "0.3.1",
             "assetBase": "https://raw.githubusercontent.com/BlockMesa/bios-wrapper/1a58f2e8e2f78d234b65aaea276f5c25cc138874/",
             "files": [
                 "init.lua",
-				"lib/json.lua",
-				"lib/bit.lua"
+                "lib/bit.lua"
+            ],
+            "requires": [
+                "json"
+            ]
+        },
+        "json": {
+            "version": "0.1.2",
+            "assetBase": "https://raw.githubusercontent.com/rxi/json.lua/dbf4b2dd2eb7c23be2773c89eb059dadd6436f94/",
+            "files": {
+                "lib/json.lua": "json.lua"
+            }
+        },
+        "init": {
+            "version": "0.1.0",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/31029e16eaf357084b6b8c67755f38ad1980c9a6/",
+            "files": [
+                "sbin/init.why"
             ]
         },
         "bios": {
@@ -62,7 +107,7 @@
             "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-BIOS/01364da08236166ecc369f9ce1b5f67a79bf8407/",
             "files": [
                 "startup.lua",
-				".BIOS"
+                ".BIOS"
             ]
         },
         "neofetch": {
