@@ -63,7 +63,7 @@
             }
         },
         "package": {
-            "version": "0.3.1",
+            "version": "0.4.0",
             "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/17e2b82f18a9574a0857dc113916fdeaf74540b5/",
             "files": [
                 "bin/package.lua"
