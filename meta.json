@@ -5,7 +5,6 @@
             "version": "0.2.1",
             "assetBase": "",
             "requires": [
-                "bios",
                 "bootloader",
                 "shitty",
                 "init",
@@ -35,10 +34,10 @@
             ]
         },
         "bootloader": {
-            "version": "0.1.0",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/31029e16eaf357084b6b8c67755f38ad1980c9a6/",
+            "version": "3.0",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/ad5b5d65850f1d96538cdbc7876ec4929c13b3e4/",
             "files": [
-                ".BOOT"
+                "startup.lua"
             ]
         },
         "shell": {
@@ -71,8 +70,8 @@
             ]
         },
         "kernel": {
-            "version": "0.3.0",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/31029e16eaf357084b6b8c67755f38ad1980c9a6/",
+            "version": "0.3.1",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/ad5b5d65850f1d96538cdbc7876ec4929c13b3e4/",
             "files": [
                 "sbin/kernel.lua"
             ]
@@ -85,7 +84,8 @@
                 "lib/bit.lua"
             ],
             "requires": [
-                "json"
+                "json",
+				"legacy-bootloader"
             ]
         },
         "json": {
@@ -100,16 +100,35 @@
             "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/31029e16eaf357084b6b8c67755f38ad1980c9a6/",
             "files": [
                 "sbin/init.why"
-            ]
+            ],
+			"requires": [
+				"shitty"
+			]
         },
         "bios": {
             "version": "3.00",
             "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-BIOS/01364da08236166ecc369f9ce1b5f67a79bf8407/",
             "files": [
-                "startup.lua",
                 ".BIOS"
             ]
         },
+		"legacy-bootloader": {
+			"version": "2.0",
+			"assetBase": "",
+			"files" : {
+				"startup.lua": "https://raw.githubusercontent.com/BlockMesa/BM-BIOS/01364da08236166ecc369f9ce1b5f67a79bf8407/startup.lua",
+				".BOOT": "https://raw.githubusercontent.com/BlockMesa/BM-OS/473d541de04f2c0950a9346d234b2c9993bd47a2/.BOOT"
+			},
+			"requires": [
+				"bios"
+			],
+			"conflicts": [
+				"bootloader"
+			],
+			"provides": [
+				"bootloader"
+			]
+		},
         "neofetch": {
             "version": "1.2",
             "assetBase": "https://raw.githubusercontent.com/BlockMesa/packages/b776298944d0d9681c9d0ee426a6464051b326f0/",
