@@ -35,9 +35,10 @@
         },
         "bootloader": {
             "version": "3.1",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/6e006df2f1e79170427e3135c6ee6dd8e9b24b69/",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/ee2ee1bad49ef0f3eca120c345e48d02ae4442ac/",
             "files": [
-                "startup.lua"
+                "startup.lua",
+				"boot/loader.lua"
             ]
         },
         "shell": {
@@ -71,9 +72,9 @@
         },
         "kernel": {
             "version": "0.3.1",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/ad5b5d65850f1d96538cdbc7876ec4929c13b3e4/",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/ee2ee1bad49ef0f3eca120c345e48d02ae4442ac/",
             "files": [
-                "sbin/kernel.lua"
+                "boot/kernel.lua"
             ]
         },
         "bios-wrapper": {
@@ -117,7 +118,7 @@
 			"assetBase": "",
 			"files" : {
 				"startup.lua": "https://raw.githubusercontent.com/BlockMesa/BM-BIOS/01364da08236166ecc369f9ce1b5f67a79bf8407/startup.lua",
-				".BOOT": "https://raw.githubusercontent.com/BlockMesa/BM-OS/473d541de04f2c0950a9346d234b2c9993bd47a2/.BOOT"
+				".BOOT": "https://raw.githubusercontent.com/BlockMesa/BM-OS/ee2ee1bad49ef0f3eca120c345e48d02ae4442ac/.BOOT"
 			},
 			"requires": [
 				"bios"
