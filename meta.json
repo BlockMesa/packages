@@ -34,8 +34,8 @@
             ]
         },
         "bootloader": {
-            "version": "3.2",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/039fef73da1e06e9fbdb866bc9267a3343674369/",
+            "version": "4.0",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/bootloader/4c827f388104ed84c7c5717dc199c1f3391d0992/",
             "files": [
                 "startup.lua",
 				"boot/loader.lua"
@@ -63,17 +63,18 @@
             }
         },
         "package": {
-            "version": "0.4.0",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/17e2b82f18a9574a0857dc113916fdeaf74540b5/",
+            "version": "0.4.1",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/fa1badc0bbebaa588777f6b07bd6dbec57e8560e/",
             "files": [
                 "bin/package.lua"
             ]
         },
         "kernel": {
-            "version": "0.3.2",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/039fef73da1e06e9fbdb866bc9267a3343674369/",
+            "version": "0.3.3",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/fa1badc0bbebaa588777f6b07bd6dbec57e8560e/",
             "files": [
-                "boot/kernel.lua"
+                "boot/kernel.lua",
+				"boot/map.json"
             ]
         },
         "bios-wrapper": {
@@ -96,8 +97,8 @@
             }
         },
         "init": {
-            "version": "0.1.2",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/039fef73da1e06e9fbdb866bc9267a3343674369/",
+            "version": "0.1.3",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/1b4405dc0fc722d91558b3080e38836bdf68ae23/",
             "files": [
                 "sbin/init.why"
             ],
