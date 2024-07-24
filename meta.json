@@ -1,5 +1,5 @@
 {
-    "lastupdated": "2024-05-24 10:434 PM EST",
+    "lastupdated": "2024-07-24 2:03 PM EST",
     "packages": {
         "base": {
             "version": "0.2.1",
@@ -7,9 +7,9 @@
             "requires": [
                 "bootloader",
                 "shitty",
+				"sha256",
                 "init",
                 "kernel",
-                "login",
                 "shell",
                 "init",
                 "basic-commands",
@@ -34,26 +34,25 @@
             ]
         },
         "bootloader": {
-            "version": "3.1",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/ee2ee1bad49ef0f3eca120c345e48d02ae4442ac/",
+            "version": "3.2",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/039fef73da1e06e9fbdb866bc9267a3343674369/",
             "files": [
                 "startup.lua",
 				"boot/loader.lua"
             ]
         },
         "shell": {
-            "version": "0.1.1",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/67351eef744bd07f3bb50c8e67925fb7f1e7f98e/",
+            "version": "0.1.2",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/039fef73da1e06e9fbdb866bc9267a3343674369/",
             "files": [
                 "bin/sh.lua"
             ]
         },
         "login": {
-            "version": "0.1.1",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/31029e16eaf357084b6b8c67755f38ad1980c9a6/",
+            "version": "0.1.2",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/039fef73da1e06e9fbdb866bc9267a3343674369/",
             "files": [
-                "bin/login.lua",
-                "lib/sha256.lua"
+                "bin/login.lua"
             ]
         },
         "shitty": {
@@ -71,8 +70,8 @@
             ]
         },
         "kernel": {
-            "version": "0.3.1",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/ee2ee1bad49ef0f3eca120c345e48d02ae4442ac/",
+            "version": "0.3.2",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/039fef73da1e06e9fbdb866bc9267a3343674369/",
             "files": [
                 "boot/kernel.lua"
             ]
@@ -98,13 +97,21 @@
         },
         "init": {
             "version": "0.1.1",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/4622c2820700714464f1207efb455d5ab84fe43b/",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/039fef73da1e06e9fbdb866bc9267a3343674369/",
             "files": [
                 "sbin/init.why"
             ],
 			"requires": [
-				"shitty"
+				"shitty",
+				"sha256"
 			]
+        },
+		"sha256": {
+            "version": "1.0",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/039fef73da1e06e9fbdb866bc9267a3343674369/",
+            "files": [
+                "lib/sha256.lua"
+            ]
         },
         "bios": {
             "version": "3.00",
