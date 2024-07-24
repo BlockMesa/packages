@@ -56,8 +56,8 @@
             ]
         },
         "shitty": {
-            "version": "0.1.1",
-            "assetBase": "https://raw.githubusercontent.com/WindClan/shittylang/4829e4796deb31b5cce0505e2372b20a315fb356/",
+            "version": "0.1.2",
+            "assetBase": "https://raw.githubusercontent.com/WindClan/shittylang/6307c627d306affbbec1c52a7739e10f5aaf4744/",
             "files": {
                 "bin/shitty.lua": "shitty.lua"
             }
