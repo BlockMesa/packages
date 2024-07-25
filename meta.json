@@ -34,8 +34,8 @@
             ]
         },
         "bootloader": {
-            "version": "4.2",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/bootloader/ab6a8cd2abe671fe02c707733cc3aa7a7ade1f2b/",
+            "version": "4.3",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/bootloader/dd09b974f0a2d589e066e637c49f8a4339232ca2/",
             "files": [
                 "startup.lua",
 				"boot/loader.lua"
@@ -70,8 +70,8 @@
             ]
         },
         "kernel": {
-            "version": "0.3.5",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/6616c00f050034c1fd58339a11319d5d48a07d57/",
+            "version": "0.3.6",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/44c7b7b06016a2a40f0339d013cc944927f2c02a/",
             "files": [
                 "boot/kernel.lua",
 				"boot/map.json"
