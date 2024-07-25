@@ -9,7 +9,7 @@ local function leftpad(text, amt)
 end
 
 local function printSeparator(char)
-  leftpad(string.rep(char, #("root@".._G.kernel.hostname())), leftpadsize)
+  leftpad(string.rep(char, #(user.currentUser().."@"..os.hostname())), leftpadsize)
 end
 function drawBIMG(bimg, x, y, mon)
   local frame = bimg[1]
@@ -28,10 +28,10 @@ local art_pos_x, art_pos_y = term.getCursorPos()
 local bimg = {{{"\128\143\156\143\143\147\143\128","0f000ff0","f0fff00f"},{"\151\135\128\128\128\128\139\148","f0000000","0fffffff"},{"\151\128\128\128\128\128\128\148","00000007","3ffffff0"},{"\138\128\149\128\128\128\139\133","30f000f7","0f000000"},{"\138\139\133\128\128\128\128\133","0ff00000","f000000f"},{"\128\131\143\128\128\143\131\128","00000000","ff8008ff"},}}
 term.setCursorPos(art_pos_x+8, art_pos_y)
 --math.floor((51 - #text) / 2)
-term.setTextColor(kernel.currentUserColor())
-term.write(" "..kernel.currentUser())
+term.setTextColor(user.currentUserColor())
+term.write(" "..user.currentUser())
 term.setTextColor(colors.white)
-term.write("@".._G.kernel.hostname())
+term.write("@".._G.os.hostname())
 print(" ")
 printSeparator("-")
 leftpad("Operating System: " .. os.version(), leftpadsize)
