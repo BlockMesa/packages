@@ -17,8 +17,8 @@
             ]
         },
         "basic-commands": {
-            "version": "0.2.1",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/67351eef744bd07f3bb50c8e67925fb7f1e7f98e/",
+            "version": "0.3.0",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/6616c00f050034c1fd58339a11319d5d48a07d57/",
             "files": [
                 "bin/cat.lua",
                 "bin/cd.lua",
@@ -42,15 +42,15 @@
             ]
         },
         "shell": {
-            "version": "0.1.2",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/039fef73da1e06e9fbdb866bc9267a3343674369/",
+            "version": "0.2.0",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/6616c00f050034c1fd58339a11319d5d48a07d57/",
             "files": [
                 "bin/sh.lua"
             ]
         },
         "login": {
-            "version": "0.1.2",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/039fef73da1e06e9fbdb866bc9267a3343674369/",
+            "version": "0.1.3",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/6616c00f050034c1fd58339a11319d5d48a07d57/",
             "files": [
                 "bin/login.lua"
             ]
@@ -63,15 +63,15 @@
             }
         },
         "package": {
-            "version": "0.4.1",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/fa1badc0bbebaa588777f6b07bd6dbec57e8560e/",
+            "version": "0.4.2",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/6616c00f050034c1fd58339a11319d5d48a07d57/",
             "files": [
                 "bin/package.lua"
             ]
         },
         "kernel": {
-            "version": "0.3.4",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/9879bfa599bc1b6e8fe552466a3e7acacffceb23/",
+            "version": "0.3.5",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/6616c00f050034c1fd58339a11319d5d48a07d57/",
             "files": [
                 "boot/kernel.lua",
 				"boot/map.json"
@@ -97,13 +97,12 @@
             }
         },
         "init": {
-            "version": "0.1.3",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/1b4405dc0fc722d91558b3080e38836bdf68ae23/",
+            "version": "0.2.0",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/6616c00f050034c1fd58339a11319d5d48a07d57/",
             "files": [
-                "sbin/init.why"
+                "sbin/init.lua"
             ],
 			"requires": [
-				"shitty",
 				"sha256"
 			]
         },
@@ -139,8 +138,8 @@
 			]
 		},
         "neofetch": {
-            "version": "1.2",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/packages/b776298944d0d9681c9d0ee426a6464051b326f0/",
+            "version": "2.0",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/packages/00d01bb6847b7cd5388776071ada059212ff8e4d/",
             "files": {
                 "usr/bin/neofetch.lua": "packages/neofetch.lua"
             }
