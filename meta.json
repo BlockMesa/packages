@@ -97,8 +97,8 @@
             }
         },
         "init": {
-            "version": "0.2.0",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/6616c00f050034c1fd58339a11319d5d48a07d57/",
+            "version": "0.2.1",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/BM-OS/07b1dbc29616e3ae0329fc20c0e5a25429ffd919/",
             "files": [
                 "sbin/init.lua"
             ],
