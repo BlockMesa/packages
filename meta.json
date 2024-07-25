@@ -34,8 +34,8 @@
             ]
         },
         "bootloader": {
-            "version": "4.1",
-            "assetBase": "https://raw.githubusercontent.com/BlockMesa/bootloader/bfd28d28e9b381fde6985a13585bdef50989d50f/",
+            "version": "4.2",
+            "assetBase": "https://raw.githubusercontent.com/BlockMesa/bootloader/ab6a8cd2abe671fe02c707733cc3aa7a7ade1f2b/",
             "files": [
                 "startup.lua",
 				"boot/loader.lua"
